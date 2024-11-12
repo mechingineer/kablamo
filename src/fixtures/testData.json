@@ -1,0 +1,37 @@
+{
+    "testcase1": {
+        "series" : "FXCADAUD",
+        "format" : "json",
+        "weeks"  : 10,
+        "label"  : "CAD/AUD",
+        "description" : "Canadian dollar to Australian dollar daily exchange rate"
+    },
+    "testcase2": {
+        "series" : "ABCD"
+    },
+    "testcase3": {
+        "series" : "FXCADAUD",
+        "startDate" : "10-01-2024",
+        "endDate" : "10-31-2024"
+    },
+    "testcase4": {
+        "series" : "FXCADAUD",
+        "startDate" : "2024-10-31",
+        "endDate" : "2021-10-01"
+    },
+    "testcase5": {
+        "series" : "FXAUDCAD",
+        "format" : "json",
+        "weeks" : 15,
+        "label"  : "AUD/CAD",
+        "description" : "Australian dollar to Canadian dollar daily exchange rate"
+    },
+    "testcase6": {
+        "series" : "FXUSDCAD",
+        "format" : "json",
+        "weeks" : 20,
+        "label"  : "USD/CAD",
+        "description" : "US dollar to Canadian dollar daily exchange rate"
+    }
+
+}
