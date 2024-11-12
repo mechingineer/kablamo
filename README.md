@@ -8,6 +8,6 @@ The framework uses default playwright test runner and configurations. All the te
 
 ### Execution Steps
 1. Clone the repo and switch to branch 'main'
-2. Install all the required dependencies using 'nmp install' and 'npx playwright install'
+2. Install all the required dependencies using 'npm install' and 'npx playwright install'
 3. Open terminal and execute 'npx playwright test'
 5. After execution, HTML report will be generated in reports folder.
