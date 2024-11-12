@@ -11,3 +11,11 @@ The framework uses default playwright test runner and configurations. All the te
 2. Install all the required dependencies using 'npm install' and 'npx playwright install'
 3. Open terminal and execute 'npx playwright test'
 5. After execution, HTML report will be generated in reports folder.
+
+###Test Case Details
+Test Case 1 - Positive scenario to find the average forex rate for CAD to AUD for the recent weeks
+Test Case 2 - Negative scenario to validate the error message in case of incorrect series
+Test Case 3 - Negative scenario to validate the error message in case of incorrect date format
+Test Case 4 - Negative scenario to validate the error message in case of end date less than start date
+Test Case 5 - Positive scenario to find the average forex rate for AUD to CAD for the recent weeks
+Test Case 6 - Positive scenario to find the average forex rate for USD to CAD for the recent weeks
